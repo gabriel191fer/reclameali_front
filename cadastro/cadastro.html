@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastre-se</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cadastro.css'>
+    <script src='cadastro.js'></script>
+</head>
+<body>
+    <h2>Reclame Ali</h2>
+    <div id="cadastro_container">
+         <form action="https://shielded-island-23034.herokuapp.com/operadores/signup" method="POST">
+            <label for="name_input">Nome Completo</label>
+            <br><input type="text" id="name_input" name="nome" class="input">
+            <br><br>
+            <label for="email_input">E-mail</label>
+            <br><input type="text" id="email_input" name="email" class="input">
+            <br><br>
+            <label for="telefone_input">Telefone</label>
+            <br><input type="text" id="telefone_input" name="telefone" class="input">
+            <br><br>
+            <label for="senha_input">Senha</label>
+            <br><input type="text" id="senha_input" name="senha" class="input">
+            <br><br>
+            <label for="cargo_input">Cargo</label>
+            <br><input type="text" id="cargo_input" name="cargo" class="input">
+            <br><br>
+                
+            <a href="../main/main.html"><input type="submit"></a>
+        </form>
+    </div>
+</body>
+</html>
