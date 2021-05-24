@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const server = require('./app');
 
+
 function loadWindow(){
     const janela = new BrowserWindow({
         width: 800,
