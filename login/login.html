@@ -3,24 +3,25 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>app com electron</title>
+    <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <h2>Reclame Ali</h2>
+    <div id="header">
+        <h2>Reclame Ali</h2>
+    </div>
+
     <div id="login_container">
-         <form action="/" method="POST">
-            <label for="username_input">Usuário
-                <input type="text" id="username_input" name="email">
+        <form action="/" method="POST">
+            <label for="email">Email
+            <input type="text" id="username_input" name="email" placeholder="exemplo@mail.com" required>
             <br><br>
             <label for="username_input">Senha
-                <input type="password" id="password_input" name="senha">
+            <input type="password" id="password_input" name="senha" placeholder="********" required>
             <br><br>
-            <a href="../main/main.html"><input type="submit"></a>
-            <br><br><br>
-            <a href="../cadastro/cadastro.html">Clique aqui para se cadastrar</a>
+            <button type="submit">Login</button>
         </form>
     </div>
 </body>
