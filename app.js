@@ -48,7 +48,7 @@ function get_reclamacoes(){
 }
 // Raiz do programa. Envia a tela de login como primeira tela que o usuário visualiza.
 app.get("/", (req, res) => {
-   res.sendFile(__dirname + "/login.html"); 
+   res.sendFile(__dirname + "/login/login.html"); 
 });
 // Obtém as informações do formulário.
 app.post("/", (req, res) => {
@@ -69,11 +69,12 @@ app.post("/", (req, res) => {
         res.send(err);
     });
 });
-get_reclamacoes.then(result => {
+/*
+get_reclamacoes().then(result => {
     console.log(result);
 }).catch(err => {
     console.log(err);
 });
-
+*/
 
 module.exports = app;
