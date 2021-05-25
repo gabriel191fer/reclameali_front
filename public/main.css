@@ -1,0 +1,99 @@
+#header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #03a5fc;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 0%;
+    text-align: right;
+}
+
+body{
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #353a3d;
+}
+
+#left-bar{
+    position: absolute;
+    height: 100vh;
+    width: 19%;
+    max: 30%;
+    background-color: #353a3d;
+    top: 60px;
+    margin: 0px;
+    border-right: solid white 1px;
+    padding: 5px;
+}
+
+#list-itens{
+    background-color: red;
+}
+
+#dashboard{
+    width: 79%;
+    right: 0%;
+    position: absolute;
+    height: 100vh;
+    top: 60px;
+
+}
+
+#main{
+    display: inline;
+}
+
+#reclamacao-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card-content{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    display: none;
+}
+
+.reclamacao{
+    width: 95%;
+    min-height: 100px;
+    max-height: auto;
+    background-color: white;
+    border: black 1px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.reclamacao-card{
+
+}
+
+.toggle{
+    display: none;
+}
+
+.animate {
+    animation: moveDown 0.6s ease-in-out 0.2s backwards;
+}
+
+.baixa{
+    background-color: green;
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateY(-40px); 
+        opacity: 1;
+    }
+    100% { 
+        transform: translateY(0px);  
+        opacity: 1;
+    }
+}
