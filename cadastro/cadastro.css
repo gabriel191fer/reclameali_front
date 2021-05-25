@@ -2,15 +2,6 @@
     box-sizing: border-box;
 }
 
-h2{
-    color: white;
-}
-
-body{
-    padding: 0px;
-    margin-top: 0px;
-    background-color: #353a3d;
-}
 
 #header{
     position: absolute;
@@ -25,6 +16,17 @@ body{
     padding-left: 10px;
 }
 
+h2{
+    color: white;
+}
+
+body{
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #353a3d;
+}
+
+
 #cadastro_container{
     display: flex;
     background-color: #FFFF82;
@@ -37,6 +39,7 @@ body{
     padding: 10px;
     text-align: left;
     vertical-align: middle;
+    border: 2px solid black;
     border-radius: 25px;
 }
 
